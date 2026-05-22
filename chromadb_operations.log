@@ -1,0 +1,36 @@
+2026-05-15 20:40:27,045 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.5.6:5001
+2026-05-15 20:40:27,046 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-15 20:40:27,047 - INFO -  * Restarting with stat
+2026-05-15 20:40:27,908 - WARNING -  * Debugger is active!
+2026-05-15 20:40:27,914 - INFO -  * Debugger PIN: 855-204-065
+2026-05-15 20:41:53,981 - INFO - 127.0.0.1 - - [15/May/2026 20:41:53] "OPTIONS /api/connect HTTP/1.1" 200 -
+2026-05-15 20:41:54,414 - INFO - HTTP Request: GET http://localhost:8000/api/v2/auth/identity "HTTP/1.1 200 OK"
+2026-05-15 20:41:54,432 - INFO - HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+2026-05-15 20:41:54,435 - INFO - HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+2026-05-15 20:41:54,437 - INFO - HTTP Request: GET http://localhost:8000/api/v2/heartbeat "HTTP/1.1 200 OK"
+2026-05-15 20:41:54,437 - INFO - CONNECT: Á¬½Óµ½ localhost:8000 (HTTP Server)
+2026-05-15 20:41:54,438 - INFO - 127.0.0.1 - - [15/May/2026 20:41:54] "POST /api/connect HTTP/1.1" 200 -
+2026-05-15 20:41:54,457 - INFO - HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-05-15 20:41:54,515 - INFO - HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/79547975-3fdb-4b9a-8689-5970211ac641/count?read_level=index_and_wal "HTTP/1.1 200 OK"
+2026-05-15 20:41:54,516 - INFO - 127.0.0.1 - - [15/May/2026 20:41:54] "GET /api/collections HTTP/1.1" 200 -
+2026-05-15 20:42:08,314 - INFO - HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/docs_collection "HTTP/1.1 200 OK"
+2026-05-15 20:42:08,332 - INFO - HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/79547975-3fdb-4b9a-8689-5970211ac641/count?read_level=index_and_wal "HTTP/1.1 200 OK"
+2026-05-15 20:42:08,333 - INFO - 127.0.0.1 - - [15/May/2026 20:42:08] "POST /api/collections/docs_collection/select HTTP/1.1" 200 -
+2026-05-15 20:42:08,486 - INFO - HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/docs_collection "HTTP/1.1 200 OK"
+2026-05-15 20:42:08,490 - INFO - HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/79547975-3fdb-4b9a-8689-5970211ac641/count?read_level=index_and_wal "HTTP/1.1 200 OK"
+2026-05-15 20:42:08,490 - INFO - 127.0.0.1 - - [15/May/2026 20:42:08] "POST /api/collections/docs_collection/select HTTP/1.1" 200 -
+2026-05-15 20:42:08,587 - INFO - HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/79547975-3fdb-4b9a-8689-5970211ac641/get "HTTP/1.1 200 OK"
+2026-05-15 20:42:08,602 - INFO - HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/79547975-3fdb-4b9a-8689-5970211ac641/count?read_level=index_and_wal "HTTP/1.1 200 OK"
+2026-05-15 20:42:08,604 - INFO - 127.0.0.1 - - [15/May/2026 20:42:08] "GET /api/stats HTTP/1.1" 200 -
+2026-05-15 20:42:08,669 - INFO - HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/79547975-3fdb-4b9a-8689-5970211ac641/get "HTTP/1.1 200 OK"
+2026-05-15 20:42:08,677 - INFO - HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/79547975-3fdb-4b9a-8689-5970211ac641/count?read_level=index_and_wal "HTTP/1.1 200 OK"
+2026-05-15 20:42:08,679 - INFO - 127.0.0.1 - - [15/May/2026 20:42:08] "GET /api/stats HTTP/1.1" 200 -
+2026-05-15 20:42:08,938 - INFO - HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/79547975-3fdb-4b9a-8689-5970211ac641/get "HTTP/1.1 200 OK"
+2026-05-15 20:42:08,948 - INFO - HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/79547975-3fdb-4b9a-8689-5970211ac641/count?read_level=index_and_wal "HTTP/1.1 200 OK"
+2026-05-15 20:42:08,950 - INFO - 127.0.0.1 - - [15/May/2026 20:42:08] "GET /api/documents?limit=10 HTTP/1.1" 200 -
+2026-05-15 20:42:08,970 - INFO - HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/79547975-3fdb-4b9a-8689-5970211ac641/get "HTTP/1.1 200 OK"
+2026-05-15 20:42:08,979 - INFO - HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/79547975-3fdb-4b9a-8689-5970211ac641/count?read_level=index_and_wal "HTTP/1.1 200 OK"
+2026-05-15 20:42:08,980 - INFO - 127.0.0.1 - - [15/May/2026 20:42:08] "GET /api/documents?limit=10 HTTP/1.1" 200 -

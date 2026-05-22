@@ -1,0 +1,44 @@
+pydantic
+python-dotenv
+#第一周
+fastapi
+uvicorn
+langchain
+langchain-openai
+dotenv
+#第二周
+pdfplumber
+python-multipart
+#第三周
+chromadb
+
+#阿里云 千问embedding
+dashscope
+langchain-community
+
+#第四周
+#连接7DGroup 管理工具的后端，将7DGroup的backend.py拷贝到根目录下，并安装以下依赖。
+#并运行chroma run --port 8000 --path ./chroma_db和python 7D-chroma-managetool.backend.py
+#在本地文件中打开chromadb_management_tool.html连接数据库
+flask>=2.3.0
+flask-cors>=4.0.0
+chromadb>=0.4.0
+psutil>=5.9.0
+#正确连接步骤：
+#确保你的 ChromaDB 在运行（你现在已经做到了）。
+#启动 7DGroup 管理工具的后端（这是你缺失的一步）：
+#你需要从 GitHub 下载或克隆这个工具的代码。
+#按照它的 README 安装依赖（pip install -r requirements.txt）。
+#运行它的后端服务（通常是 python backend.py或 python app.py），这个服务会监听另一个端口（比如 5000或 8080）。
+#访问管理工具：
+#打开浏览器，访问工具自己的地址，例如 http://localhost:5000或 http://localhost:8080。
+#在工具的界面里，配置你的 ChromaDB 地址为 localhost:8000。
+#简单来说：你需要运行两个服务。一个是你的 chroma run（端口 8000），另一个是管理工具的后端（端口 5000）。你访问的是 5000 端口，而不是 8000 端口。
+
+#第五周
+sqlalchemy
+asyncpg
+psycopg2-binary
+python-jose[cryptography]
+passlib[bcrypt]
+
